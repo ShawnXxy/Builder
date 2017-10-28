@@ -15,18 +15,18 @@ public abstract class Subject {
 	 * 	Register observers
 	 * @param lazySheep
 	 */
-	public void attach(observer.wolfNsheep.Observer lazySheep) {
-		observerList.add(lazySheep);
-		System.out.println("New observer added: " + lazySheep.getName());
+	public void attach(Observer obs) {
+		observerList.add(obs);
+		System.out.println("New observer added: " + obs.getName());
 	}
 
 	/**
 	 * 	 Remove observers
 	 * @param args
 	 */
-	public void dettach(observer.wolfNsheep.Observer happySheep) {
-		observerList.remove(happySheep);
-		System.out.println("Observer removed: " +  happySheep.getName());
+	public void dettach(Observer obs) {
+		observerList.remove(obs);
+		System.out.println("Observer removed: " +  obs.getName());
 	}
 	
 	/**

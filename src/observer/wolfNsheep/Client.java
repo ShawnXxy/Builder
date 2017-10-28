@@ -13,7 +13,7 @@ public class Client {
 		
 		wolf.invade();
 		
-		wolf.dettach(happySheep);
-		wolf.invade();
+//		wolf.dettach(happySheep);
+//		wolf.invade();
 	}
 }
