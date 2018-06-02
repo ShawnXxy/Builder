@@ -1,4 +1,4 @@
-package observer.wolfNsheep;
+package pattern.observer;
 
 public class HappySheep implements Observer{
 

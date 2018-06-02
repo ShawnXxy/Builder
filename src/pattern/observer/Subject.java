@@ -1,4 +1,4 @@
-package observer.wolfNsheep;
+package pattern.observer;
 
 import java.util.ArrayList;
 import java.util.List;
